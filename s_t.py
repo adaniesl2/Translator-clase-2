@@ -104,6 +104,12 @@ if result:
         output_language = "zh-cn"
     elif out_lang == "Japonés":
         output_language = "ja"
+    elif out_lang == "Holandés":
+        output_language = 'nl'
+    elif out_lang == "Alemán":
+        output_language = 'de'
+    elif out_lang == 'Italiano':
+        output_language = 'it'
     
     english_accent = st.selectbox(
         "Selecciona el acento",
