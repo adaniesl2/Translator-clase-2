@@ -16,7 +16,7 @@ from googletrans import Translator
 
 
 st.title("Traductor de Unown")
-st.subheader("Unde el botón y habla lo que quires que los Unown te traduzcan")
+st.subheader("Unde el botón y habla lo que quieres que los Unown te traduzcan")
 
 
 image = Image.open('Unown.png')
