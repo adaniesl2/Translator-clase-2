@@ -16,8 +16,7 @@ from googletrans import Translator
 
 
 st.title("Traductor de Unown")
-st.subheader("Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada. - Pokédex"
-"Deja que los Unown traduzcan lo que quieras.")
+st.subheader("Unde el botón y habla lo que quires que los Unown te traduzcan")
 
 
 image = Image.open('Unown.png')
@@ -30,7 +29,7 @@ with st.sidebar:
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Unde el botón y habla lo que quires que los Unown te traduzcan")
+st.write("Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada. - Pokédex. Deja que los Unown traduzcan lo que quieras.")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
