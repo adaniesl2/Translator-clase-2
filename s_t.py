@@ -16,8 +16,8 @@ from googletrans import Translator
 
 
 st.title("Traductor de Unown")
-st.subheader("Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada. - Pokédex
-Deja que los Unown traduzcan lo que quieras.")
+st.subheader("Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada. - Pokédex"
+"Deja que los Unown traduzcan lo que quieras.")
 
 
 image = Image.open('Unown.png')
