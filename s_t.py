@@ -15,21 +15,22 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+    st.title("Traductor de Unown")
+st.subheader("Estos Pokémon tienen forma de caracteres antiguos. No se sabe qué surgió primero, si la vieja escritura o los distintos Unown. Esta cuestión sigue siendo objeto de estudio, pero aún no se ha averiguado nada. - Pokédex
+Deja que los Unown traduzcan lo que quieras.")
 
 
-image = Image.open('Winkel_triple_projection_SW.jpg')
+image = Image.open('Unown.png')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+    st.subheader("Unown Translate")
     st.write("Presiona el botón, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("Unde el botón y habla lo que quires que los Unown te traduzcan")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
